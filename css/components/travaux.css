@@ -20,22 +20,6 @@
     position: relative; /* pour les numéros après en absolute */
 }
 
-.div-num-travaux{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin: 10px;
-    width: 100%;
-    justify-content: flex-start;
-    z-index: 1;
-}
-
-.h3-num-travaux{
-    color: #758d8a;
-    font-size: 50px;
-    margin: 0px;
-}
-
 .h4-travaux{
     margin: 0px;    
     font-size: 26px;
@@ -75,9 +59,6 @@
 
 
 @media screen and (min-width: 375px){
-    .h3-num-travaux{
-        font-size: 37px;
-    }
 
     .h4-travaux{  
         font-size: 21px;
@@ -90,9 +71,6 @@
 
 
 @media screen and (min-width: 425px){
-    .h3-num-travaux{
-        font-size: 40px;
-    }
 
     .h4-travaux{  
         font-size: 24px;
@@ -104,17 +82,7 @@
 }
 
 
-@media screen and (min-width: 1440px){
-    .h3-num-travaux{
-        font-size: 75px;
-    }
-}
-
 @media screen and (min-width: 1920px){
-    .h3-num-travaux{
-        font-size: 100px;
-    }
-
     .h4-travaux{  
         font-size: 45px;
     }
