@@ -93,6 +93,7 @@
     margin: 0px;    
     background-color: white;
     border: none;
+    text-align: left;
 }
 
 .button_axe a{
@@ -126,6 +127,30 @@
     letter-spacing: 1px;
 }
 /* ----- CREATIONS ----- */
+@media screen and (min-width: 320px){
+    .h2-titre-axe{
+        font-size: 25px;
+    }
+    
+    .h2-titre-axe-num{
+        font-size: 35px;
+    }
+    
+    .h3-section-text-axe{
+        font-size: 20px;
+
+    }
+    
+    .h4-axe{
+        font-size: 25px;
+    }
+    
+    .h5-axe{
+        font-size: 15px;
+    }
+}
+
+
 
 @media screen and (min-width: 1920px){
     .h2-titre-axe{

@@ -69,7 +69,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 40px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .article-etudes-passions{
@@ -145,7 +145,25 @@
 }
 
 /* ----- A PROPOS ----- */
+@media screen and (min-width: 320px){
+    .h4-a_propos-passions{
+        font-size: 20px;
+    }
 
+    .h4-a_propos-important{
+        font-size: 20px;
+    }
+
+    .passions-icon{
+        font-size: 55px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .passions-icon{
+        font-size: 60px;
+    }
+}
 
 @media screen and (min-width: 1024px){
     .h4-a_propos-important{

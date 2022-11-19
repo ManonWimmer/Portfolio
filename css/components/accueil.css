@@ -41,6 +41,7 @@
 .h2-nom-accueil{
     color: white;
     margin: 0px;
+    font-size: 80px;
     line-height: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -61,6 +62,7 @@
     animation: fadein 1.5s linear;
     animation-fill-mode:both;
     animation-delay: 1.5s;
+    text-align: center;
 }
 
 
@@ -76,7 +78,62 @@
 
 
 /* ----- ACCUEIL ----- */
+@media screen and (min-width: 320px){
+    .div-nom-accueil{
+        right: 5%;
+    }
 
+    .h2-nom-accueil{
+        line-height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 60px;
+    }
+
+    .h4-text-accueil{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .div-nom-accueil{
+        right: 5%;
+    }
+
+    .h2-nom-accueil{
+        line-height: 45px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 70px;
+    }
+
+    .h4-text-accueil{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .div-nom-accueil{
+        right: 7%;
+    }
+
+    .h2-nom-accueil{
+        line-height: 45px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 75px;
+    }
+
+    .h4-text-accueil{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
 
 @media screen and (min-width: 1000px){
 
