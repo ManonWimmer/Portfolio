@@ -22,8 +22,9 @@
 
 .div-num-travaux{
     position: absolute;
-    right: 40px;
-    bottom: 250px;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
     width: 100%;
     justify-content: flex-start;
     z-index: 1;
@@ -32,7 +33,7 @@
 .h3-num-travaux{
     color: #758d8a;
     font-size: 50px;
-    margin: 25px;
+    margin: 0px;
 }
 
 .h4-travaux{
@@ -58,10 +59,6 @@
 }
 /* ----- MES TRAVAUX ----- */
 @media screen and (min-width: 320px){
-    .div-num-travaux{
-        bottom: 165px;
-    }
-
     .h3-num-travaux{
         font-size: 35px;
     }
@@ -78,10 +75,6 @@
 
 
 @media screen and (min-width: 375px){
-    .div-num-travaux{
-        bottom: 200px;
-    }
-
     .h3-num-travaux{
         font-size: 37px;
     }
@@ -97,10 +90,6 @@
 
 
 @media screen and (min-width: 425px){
-    .div-num-travaux{
-        bottom: 230px;
-    }
-
     .h3-num-travaux{
         font-size: 40px;
     }
@@ -115,27 +104,13 @@
 }
 
 
-@media screen and (min-width: 1024px){
-    .div-num-travaux{
-        bottom: 525px;
-    }
-}
-
 @media screen and (min-width: 1440px){
-    .div-num-travaux{
-        bottom: 725px;  
-    }
-
     .h3-num-travaux{
         font-size: 75px;
     }
 }
 
 @media screen and (min-width: 1920px){
-    .div-num-travaux{
-        bottom: 840px;  
-    }
-
     .h3-num-travaux{
         font-size: 100px;
     }
