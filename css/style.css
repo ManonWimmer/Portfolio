@@ -1,0 +1,64 @@
+@import url(components/header.css);
+@import url(components/accueil.css);
+@import url(components/a_propos.css);
+@import url(components/travaux.css);
+@import url(components/creations.css);
+@import url(components/footer.css);
+
+@font-face {
+    font-family: TheBoldFont;
+    src: url(THEBOLDFONT.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: TheBoldFont;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+
+h3{
+    font-size: 50px;
+    margin: 25px;
+}
+
+h4{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+video{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 1920px){
+    h3{
+        font-size: 75px;
+    }
+
+    h4{
+        font-size: 40px;
+    }
+
+    h5{
+        font-size: 25px;
+    }
+}

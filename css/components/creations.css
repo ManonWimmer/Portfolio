@@ -1,0 +1,162 @@
+
+/* ----- CREATIONS ----- */
+.container-axe{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.article-axe{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.div-item-axe{  
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.div-carrousel-axe-black, .div-carrousel-axe-white, .div-text-axe{
+    width: 100%;
+}
+
+.div-text-axe{
+    margin-bottom: 15px;
+}
+
+.div-carrousel-axe-black{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.div-carrousel-axe-white{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+
+.div-titre-axe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+    width: 80%;
+}
+
+.h2-titre-axe{
+    font-size: 35px;
+    margin: 0px;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.h2-titre-axe-num{
+    font-size: 45px;
+    margin: 0px;
+    margin-right: 5px;
+    color: #758d8a;
+    letter-spacing: 2px;
+}
+
+.h3-section-text-axe{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.h4-axe{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.h5-axe{
+    font-size: 15px;
+    color: #758d8a;
+    margin: 0px;
+}
+
+.button_axe{
+    margin: 0px;    
+    background-color: white;
+    border: none;
+}
+
+.button_axe a{
+    color: black;
+}
+
+.div-retour{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.button-retour{
+    margin: 0px;    
+    background-color: #758d8a;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.button-retour a{
+    color: white;
+}
+
+.h4-retour{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+/* ----- CREATIONS ----- */
+
+@media screen and (min-width: 1920px){
+    .h2-titre-axe{
+        font-size: 65px;
+    }
+    
+    .h2-titre-axe-num{
+        font-size: 75px;
+    }
+
+    .h3-section-text-axe{
+        font-size: 55px;
+    }
+    
+    .h4-axe{
+        font-size: 50px;
+    }
+    
+    .h5-axe{
+        font-size: 30px;
+    }
+
+    .div-text-axe{
+        margin-bottom: 35px;
+    }
+    
+    .h4-retour{
+        font-size: 55px;
+    }
+
+    .article-axe{
+        width: 70%;
+    }
+}

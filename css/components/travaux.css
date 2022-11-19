@@ -1,0 +1,102 @@
+/* ----- MES TRAVAUX ----- */
+.container-travaux{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.article-travaux{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.div-travaux{
+    width: 100%;     
+    margin-bottom: 35px;
+    position: relative; /* pour les numéros après en absolute */
+}
+
+.div-num-travaux{
+    position: absolute;
+    right: 40px;
+    bottom: 250px;
+    width: 100%;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.h3-num-travaux{
+    color: #758d8a;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.h4-travaux{
+    margin: 0px;    
+    font-size: 26px;
+}
+
+.h5-travaux{    
+    margin: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #758d8a;
+}
+
+.button_travaux a{
+    color: white;
+}
+
+.button_travaux{
+    margin: 0px;    
+    background-color: black;
+    border: none;
+}
+/* ----- MES TRAVAUX ----- */
+
+@media screen and (min-width: 1024px){
+    .div-num-travaux{
+        bottom: 530px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .div-num-travaux{
+        bottom: 725px;  
+    }
+
+    .h3-num-travaux{
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .div-num-travaux{
+        bottom: 840px;  
+    }
+
+    .h3-num-travaux{
+        font-size: 100px;
+    }
+
+    .h4-travaux{  
+        font-size: 45px;
+    }
+    
+    .h5-travaux{    
+        font-size: 35px;
+    }
+
+    .div-travaux{  
+        margin-bottom: 70px;
+    }
+
+    .article-travaux{
+        width: 75%;
+    }
+}
+

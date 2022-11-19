@@ -1,0 +1,221 @@
+
+/* ----- A PROPOS ----- */
+.container-a_propos{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.article-a_propos{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.div-qualites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 40px;
+    margin-top: 0px;
+}
+
+.div-qualites-photo{
+    width: 60%;
+    aspect-ratio: 1 / 1; /* Même height que width */
+    border-radius: 50%;
+    background-color: #758d8a;
+    margin : 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-qualites{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.h3-a_propos{
+    color: white;
+}
+
+.h4-a_propos-important{
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.li-etudes{
+    color: #758d8a;
+}
+
+.h4-a_propos-passions{
+    color: #758d8a;
+}
+
+.div-etudes{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px;
+    margin-top: 0px;
+}
+
+.article-etudes-passions{
+    width: 100%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-passions{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-passions{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-passions-item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.div-passion-photo{
+    width: 95%;
+    aspect-ratio: 1 / 1; /* Même height que width */
+    border-radius: 50%;
+    background-color: #758d8a;
+    margin : 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: background-color .5s ease-out 100ms
+}
+
+.div-passion-photo:hover{
+    background-color: white;
+}
+
+.passions-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-radius: 50%;
+    font-size: 80px;
+    text-align: center;
+    transition: background-color .5s ease-out 100ms;
+}
+
+.passions-icon:hover{
+    color: #758d8a;
+}
+
+.div-passion-nom{
+    margin: 0px;
+}
+
+.h4-a_propos-passions{
+    margin : 0px;
+}
+
+/* ----- A PROPOS ----- */
+
+
+@media screen and (min-width: 1024px){
+    .h4-a_propos-important{
+        font-size: 60px;
+    }
+
+    .div-qualites-photo{
+        width: 50%;
+    }
+
+    .article-etudes-passions{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .div-etudes{
+        width: 40%;
+    }
+
+    .li-etudes{
+        font-size: 25px;
+    }
+
+    .div-etudes{
+        margin-bottom: 0px;
+    }
+
+    .div-ul-etudes{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .passions-icon{
+        font-size: 120px;
+    }
+
+    .h4-a_propos-important{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .div-qualites-photo{
+        width: 50%;
+    }
+
+    .div-etudes{
+        width: 60%;
+    }
+
+    .h4-a_propos-important{
+        font-size: 60px;
+    }
+
+    .li-etudes{
+        font-size: 35px;
+    }
+
+    .passions-icon{
+        font-size: 150px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .article-a_propos{
+        width: 80%;
+    }
+}
