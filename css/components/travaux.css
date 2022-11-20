@@ -17,7 +17,6 @@
 .div-travaux{
     width: 100%;     
     margin-bottom: 35px;
-    position: relative; /* pour les numéros après en absolute */
 }
 
 .h4-travaux{
@@ -32,13 +31,11 @@
     color: #758d8a;
 }
 
-
 .button_travaux{
     margin: 0px;    
     background-color: black;
     border: none;
     color: white;
-    margin: 0px;    
     font-size: 26px;
 }
 /* ----- MES TRAVAUX ----- */
@@ -47,7 +44,7 @@
         font-size: 35px;
     }
 
-    .h4-travaux{  
+    .h4-travaux, .button_travaux{  
         font-size: 17px;
     }
     
@@ -60,7 +57,7 @@
 
 @media screen and (min-width: 375px){
 
-    .h4-travaux{  
+    .h4-travaux, .button_travaux{  
         font-size: 21px;
     }
     
@@ -72,7 +69,7 @@
 
 @media screen and (min-width: 425px){
 
-    .h4-travaux{  
+    .h4-travaux, .button_travaux{  
         font-size: 24px;
     }
     
@@ -82,7 +79,7 @@
 }
 
 @media screen and (min-width: 1440px){
-    .h4-travaux{  
+    .h4-travaux, .button_travaux{  
         font-size: 33px;
     }
     
@@ -93,7 +90,7 @@
 
 
 @media screen and (min-width: 1920px){
-    .h4-travaux{  
+    .h4-travaux, .button_travaux{  
         font-size: 45px;
     }
     
