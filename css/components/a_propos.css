@@ -165,9 +165,31 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    .h4-a_propos-important{
+        font-size: 40px;
+    }
+
+    .div-qualites-photo{
+        width: 40%;
+    }
+
+    .li-etudes{
+        font-size: 25px;
+    }
+
+    .passions-icon{
+        font-size: 100px;
+    }
+
+    .h4-a_propos-passions{
+        font-size: 30px;
+    }
+}
+
 @media screen and (min-width: 1024px){
     .h4-a_propos-important{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .div-qualites-photo{
@@ -205,9 +227,10 @@
         font-size: 120px;
     }
 
-    .h4-a_propos-important{
-        font-size: 50px;
+    .h4-a_propos-passions{
+        font-size: 25px;
     }
+
 }
 
 @media screen and (min-width: 1440px){
@@ -228,11 +251,15 @@
     }
 
     .passions-icon{
-        font-size: 150px;
+        font-size: 125px;
     }
 
     .h4-a_propos-passions{
-        font-size: 35px;
+        font-size: 30px;
+    }
+
+    .article-a_propos{
+        width: 75%;
     }
 }
 

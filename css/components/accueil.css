@@ -135,6 +135,25 @@
     }
 }
 
+@media screen and (min-width: 768px){
+    .div-nom-accueil{
+        right: 20%;
+    }
+
+    .h2-nom-accueil{
+        line-height: 80px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 100px;
+    }
+
+    .h4-text-accueil{
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (min-width: 1000px){
 
     .article-accueil{

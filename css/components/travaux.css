@@ -86,6 +86,10 @@
     .h5-travaux{    
         font-size: 23px;
     }
+
+    .article-travaux{
+        width: 75%;
+    }
 }
 
 
