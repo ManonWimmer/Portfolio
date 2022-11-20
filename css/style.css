@@ -54,6 +54,12 @@ a{
     }
 }
 
+@media screen and (min-width: 1440px){
+    h3{
+        font-size: 60px;
+    }
+}
+
 @media screen and (min-width: 1920px){
     h3{
         font-size: 75px;

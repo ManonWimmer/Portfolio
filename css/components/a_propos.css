@@ -220,7 +220,7 @@
     }
 
     .h4-a_propos-important{
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .li-etudes{
@@ -229,6 +229,10 @@
 
     .passions-icon{
         font-size: 150px;
+    }
+
+    .h4-a_propos-passions{
+        font-size: 35px;
     }
 }
 
