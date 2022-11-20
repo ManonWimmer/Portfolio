@@ -118,6 +118,10 @@
     letter-spacing: 1px;
 }
 
+.div-carrousel-mobile{
+    width: 50%;
+}
+
 
 /* ----- CREATIONS ----- */
 @media screen and (min-width: 320px){
@@ -207,6 +211,6 @@
     }
 
     .article-axe{
-        width: 70%;
+        width: 60%;
     }
 }

@@ -237,7 +237,11 @@
 }
 
 @media screen and (min-width: 1920px){
+    .div-qualites-photo{
+        width: 40%;
+    }
+
     .article-a_propos{
-        width: 80%;
+        width: 60%;
     }
 }
