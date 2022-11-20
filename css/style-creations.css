@@ -46,3 +46,11 @@ video{
 a{
     text-decoration: none;
 }
+
+img{
+    width: 100%;
+}
+
+.titre-article{
+    display: none;
+}

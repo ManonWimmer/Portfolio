@@ -32,14 +32,14 @@
     color: #758d8a;
 }
 
-.button_travaux a{
-    color: white;
-}
 
 .button_travaux{
     margin: 0px;    
     background-color: black;
     border: none;
+    color: white;
+    margin: 0px;    
+    font-size: 26px;
 }
 /* ----- MES TRAVAUX ----- */
 @media screen and (min-width: 320px){

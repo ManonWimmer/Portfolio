@@ -91,13 +91,13 @@
 
 .button_axe{
     margin: 0px;    
+    margin-bottom: 5px;
     background-color: white;
     border: none;
     text-align: left;
-}
-
-.button_axe a{
     color: black;
+    font-size: 30px;
+    padding: 0px;
 }
 
 .div-retour{
@@ -116,16 +116,11 @@
     width: 100%;
     padding: 10px;
     border: none;
-}
-
-.button-retour a{
-    color: white;
-}
-
-.h4-retour{
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
+
+
 /* ----- CREATIONS ----- */
 @media screen and (min-width: 320px){
     .h2-titre-axe{
@@ -141,10 +136,10 @@
 
     }
     
-    .h4-axe{
+    .h4-axe, .button-axe{
         font-size: 25px;
     }
-    
+
     .h5-axe{
         font-size: 15px;
     }
@@ -163,7 +158,7 @@
         font-size: 50px;
     }
     
-    .h4-axe{
+    .h4-axe, .button-axe{
         font-size: 40px;
     }
     
@@ -175,7 +170,7 @@
         margin-bottom: 30px;
     }
     
-    .h4-retour{
+    .button-retour{
         font-size: 50px;
     }
 
@@ -197,7 +192,7 @@
         font-size: 55px;
     }
     
-    .h4-axe{
+    .h4-axe, .button-axe{
         font-size: 50px;
     }
     
@@ -209,7 +204,7 @@
         margin-bottom: 35px;
     }
     
-    .h4-retour{
+    .button-retour{
         font-size: 55px;
     }
 
